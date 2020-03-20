@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.container{
+    margin: 0;
+    padding:10px;
+    background-color: rgb(255,76,124);
+}
+.container .brand{
+  margin: 0;
+
+}
+
+.container h1{margin:10px 0;
+    font-size: 35px;
+   color: white;
+   font-weight: 700;
+}
+.container h6{
+    padding-top:-10em;
+    color: white;
+    font-size:15px;
+    font-weight: 600;
+    
+        
+}
+
+.inline-height{
+    line-height: 25px;
+}
+ul li{
+    list-style: none;
+}
+.container ul{
+    margin-top: 80px;
+   padding: 10px;
+}
+.container li{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    display: inline;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.container ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+text-decoration: none;
+
+}
+.container a:hover{
+text-decoration: underline;
+transition: .25s ease;
+}
+
+#navbar{
+    margin: 40px 0;
+}
+.nav li{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    display: inline;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #464143;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    background-image: url(images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.banner .content{
+    float: right;
+    padding: 20px 50px;
+    margin: 50px;
+  
+}
+.banner h1{text-align: right    ;
+    color: white;
+font-size: 40px; 
+
+}
+.banner p{text-align: right;
+    color: white;
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+}
+
+#what{
+    padding: 30px;
+    margin: 30px;}
+
+#what h1, h2,h3, h4, h5{
+    margin: 30px;
+}
+#what h1{
+    font-weight:100;
+    font-size: 60px;
+}
+
+#what h2{font-size: 25px;
+    font-weight: 500;
+
+}
+#what h5{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.sidebar{
+    height: 150px;
+  
+    
+    border-radius: 10px;
+    padding:10px 30px;
+    width
+}
+
+#leftsidebar{
+    border: 1px solid #c3c4c5;
+    width: 650px;
+    float: left;
+}
+#rightsidebar{
+    background: url(/images/sidebar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    float: right;
+    padding-right: 10px;
+}
+
+.last{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.button{
+    border: 1 solid rgb(141, 28, 47);
+    background-color: rgb(141, 28, 47);
+    border-radius: 10px;
+    padding: 20px;
+}
+.wrapper a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color:white
+}
+
+.wrapper a:hover{
+    background-color: white;
+    color:rgb(141, 28, 47);
+  font-size: 20px bold;
+}
